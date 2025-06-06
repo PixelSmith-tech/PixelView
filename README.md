@@ -44,7 +44,7 @@ Grab the latest `.apk` from [Releases](https://github.com/PixelSmith-tech/PixelV
 ## 📜 License
 
 ![License](https://img.shields.io/badge/license-PixelSmith%20Custom-red?style=flat-square)  
-[🇬🇧 License (EN)](LICENSE) • [🇷🇺 Лицензия (RU)](LICENSE_RU.md)
+[🇬🇧 License (EN)](LICENSE_EN.md) • [🇷🇺 Лицензия (RU)](LICENSE_RU.md)
 
 > The project is completely free and will remain free.  
 > However, the source code is partially closed — only build configuration files are public.  
