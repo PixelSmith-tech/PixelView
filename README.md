@@ -38,7 +38,7 @@
 ## ⚙️ Installation
 
 Grab the latest `.apk` from [Releases](https://github.com/PixelSmith-tech/PixelView/releases)  
-or build it manually:
+
 
 ```bash
-git clone https://github.com/PixelSmith/PixelView.git
+The program is completely free and will remain free, but with closed source code.
