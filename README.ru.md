@@ -12,7 +12,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Платформа-Android%20TV-green?style=flat-square" />
   <img src="https://img.shields.io/badge/Сделано%20на-Java-blue?style=flat-square" />
-  <img src="https://img.shields.io/github/license/PixelSmith-tech/PixelView?style=flat-square" />
+  <img src="https://img.shields.io/badge/license-PixelSmith%20Custom-red?style=flat-square" />
 </p>
 
 ---
@@ -39,5 +39,13 @@
 
 Скачай `.apk` с [Releases](https://github.com/PixelSmith-tech/PixelView/releases)  
 
-```bash
-Программа полностью бесплатная и останется бесплатной но с закрытым исходным кодом
+---
+
+## 📜 Лицензия
+
+![Лицензия](https://img.shields.io/badge/license-PixelSmith%20Custom-red?style=flat-square)  
+[🇷🇺 Лицензия (RU)](LICENSE_RU.md) • [🇬🇧 License (EN)](LICENSE)
+
+> Проект полностью бесплатный и всегда таким останется.  
+> Однако исходный код частично закрыт — доступны только файлы конфигурации сборки.  
+> Просим уважать нашу работу.
