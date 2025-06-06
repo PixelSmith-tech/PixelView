@@ -12,7 +12,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Android%20TV-green?style=flat-square" />
   <img src="https://img.shields.io/badge/Made%20with-Java-blue?style=flat-square" />
-  <img src="https://img.shields.io/github/license/PixelSmith-tech/PixelView?style=flat-square" />
+  <img src="https://img.shields.io/badge/license-PixelSmith%20Custom-red?style=flat-square" />
 </p>
 
 ---
@@ -39,6 +39,13 @@
 
 Grab the latest `.apk` from [Releases](https://github.com/PixelSmith-tech/PixelView/releases)  
 
+---
 
-```bash
-The program is completely free and will remain free, but with closed source code.
+## 📜 License
+
+![License](https://img.shields.io/badge/license-PixelSmith%20Custom-red?style=flat-square)  
+[🇬🇧 License (EN)](LICENSE) • [🇷🇺 Лицензия (RU)](LICENSE_RU.md)
+
+> The project is completely free and will remain free.  
+> However, the source code is partially closed — only build configuration files are public.  
+> Please respect our work.
