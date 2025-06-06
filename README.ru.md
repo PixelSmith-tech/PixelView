@@ -12,7 +12,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Платформа-Android%20TV-green?style=flat-square" />
   <img src="https://img.shields.io/badge/Сделано%20на-Java-blue?style=flat-square" />
-  <img src="https://img.shields.io/github/license/PixelSmith/PixelView?style=flat-square" />
+  <img src="https://img.shields.io/github/license/PixelSmith-tech/PixelView?style=flat-square" />
 </p>
 
 ---
@@ -37,7 +37,7 @@
 
 ## ⚙️ Установка
 
-Скачай `.apk` с [Releases](https://github.com/PixelSmith/PixelView/releases)  
+Скачай `.apk` с [Releases](https://github.com/PixelSmith-tech/PixelView/releases)  
 или собери вручную:
 
 ```bash
