@@ -41,6 +41,14 @@ Grab the latest `.apk` from [Releases](https://github.com/PixelSmith-tech/PixelV
 
 ---
 
+## 🐞 Bug Reports & Suggestions / Сообщение об ошибках и предложениях
+
+If you find a bug or want to suggest an improvement, please use the [GitHub Issues](https://github.com/PixelSmith-tech/PixelView/issues) to report and discuss.
+
+You can also email us at: **dev@pixelsmith.tech** — we’re always happy to hear from you!
+
+---
+
 ## 📜 License
 
 ![License](https://img.shields.io/badge/license-PixelSmith%20Custom-red?style=flat-square)  
