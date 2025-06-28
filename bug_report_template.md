@@ -24,4 +24,4 @@ Any other relevant information.
 
 ---
 
-⚠️ **Please note:** Bug reports not following this template or submitted in languages other than English **will not be reviewed.**
+⚠️ **Please note:** Bug reports not following this template or submitted in languages other than English or Russian **will not be reviewed.**
