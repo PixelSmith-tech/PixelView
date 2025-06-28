@@ -47,6 +47,7 @@ If you find a bug or want to suggest an improvement, please use the [GitHub Issu
 
 You can also email us at: **dev@pixelsmith.tech** — we’re always happy to hear from you!
 
+Thank you for helping make PixelView better! 🚀  
 ---
 
 ## 📜 License
