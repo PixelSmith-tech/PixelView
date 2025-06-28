@@ -29,9 +29,9 @@
 
 ## 📸 UI Preview
 
-| Home Screen | Accent Color Settings |
+| Home Screen | All Apps  |
 |-------------|------------------------|
-| *(Add your screenshots here)* | *(Maybe a `screenshots/` folder?)* |
+| ![Home Screen](screenshots/main.jpg) | ![Accent Color](screenshots/allapps.jpg) |
 
 ---
 
