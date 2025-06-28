@@ -41,7 +41,7 @@ Grab the latest `.apk` from [Releases](https://github.com/PixelSmith-tech/PixelV
 
 ---
 
-## 🐞 Bug Reports & Suggestions / Сообщение об ошибках и предложениях
+## 🐞 Bug Reports & Suggestions
 
 If you find a bug or want to suggest an improvement, please use the [GitHub Issues](https://github.com/PixelSmith-tech/PixelView/issues) to report and discuss.
 
