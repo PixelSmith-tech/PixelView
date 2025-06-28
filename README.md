@@ -48,7 +48,7 @@ If you find a bug or want to suggest an improvement, please use the [GitHub Issu
 You can also email us at: **dev@pixelsmith.tech** — we’re always happy to hear from you!
 
 ⚠️ Please note
-Bug reports not following the template or submitted in languages other than English or Russian **will not be reviewed.**  
+Bug reports not following the [template](https://github.com/PixelSmith-tech/PixelView/blob/main/bug_report_template.md) or submitted in languages other than English or Russian **will not be reviewed.**  
 
 Thank you for helping make PixelView better! 🚀  
 
