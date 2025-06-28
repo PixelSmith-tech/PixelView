@@ -23,4 +23,4 @@ However, to protect the integrity and direction of this project, **the full sour
 
 We support freedom — but not theft. Respect our work.  
 
-📧 Contact us if you’re unsure: **pixelsmith.dev@protonmail.com**
+📧 Contact us if you’re unsure: **dev@pixelsmith.tech**
