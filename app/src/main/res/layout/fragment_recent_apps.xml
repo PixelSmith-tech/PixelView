@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="24dp">
+
+    <!-- 🌈 Кастомный фон — в самом начале, чтоб был позади -->
+    <com.pixelsmith.pixelview.AccentBackgroundView
+        android:id="@+id/accentBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:elevation="0dp" />
+
+    <!-- Кнопка настроек -->
+    <ImageButton
+        android:id="@+id/settingsButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@drawable/rounded_button_bg"
+        android:src="@drawable/ic_settings"
+        android:contentDescription="Настройки"
+        android:scaleType="centerInside"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tint="#FFFFFF" />
+
+    <!-- Время -->
+    <TextView
+        android:id="@+id/time"
+        android:text="12:45"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"/>
+
+    <!-- Погода -->
+    <TextView
+        android:id="@+id/weather"
+        android:text="☀️ +24°C"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/settingsButton"
+        app:layout_constraintStart_toStartOf="@id/settingsButton"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Надпись "Недавние" -->
+    <TextView
+        android:id="@+id/recentLabel"
+        android:text="Недавние"
+        android:textColor="#888888"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/recentApps"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Список недавних приложений -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recentApps"
+        android:layout_width="0dp"
+        android:layout_height="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:clipToPadding="false"
+        android:paddingEnd="4dp"
+        android:paddingStart="4dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

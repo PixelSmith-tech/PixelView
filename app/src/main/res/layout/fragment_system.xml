@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <!-- Верхняя панель с версией и GitHub -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:id="@+id/versionText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PixelView v2.0.0.0"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/githubButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="GitHub"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_github"
+            app:tint="?attr/colorPrimary" />
+    </LinearLayout>
+
+    <!-- Кнопки -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonRestart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Перезапустить оболочку"
+        app:cornerRadius="16dp"
+        app:icon="@drawable/ic_restart"
+        app:iconPadding="8dp"
+        app:iconTint="?attr/colorOnPrimary"
+        app:backgroundTint="?attr/colorPrimary" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сбросить настройки"
+        android:layout_marginTop="16dp"
+        app:cornerRadius="16dp"
+        app:strokeWidth="2dp"
+        app:strokeColor="?attr/colorPrimary"
+        />
+</LinearLayout>

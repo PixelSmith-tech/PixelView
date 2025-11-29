@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/systemSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Использовать системную тему" />
+
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/themeToggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:singleSelection="true">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/lightButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Светлая" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/darkButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Тёмная" />
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+
+        <!-- Акцентный цвет -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Акцентный цвет"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnBackground"
+            android:layout_marginTop="24dp" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

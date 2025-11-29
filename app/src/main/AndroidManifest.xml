@@ -6,7 +6,7 @@
     <uses-feature android:name="android.software.tv" android:required="true" />
     <uses-feature android:name="android.software.leanback" android:required="false" />
 
-    <!-- Разрешения -->
+
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -19,7 +19,7 @@
         android:theme="@style/Theme.PixelView.Light">
 
 
-        <!-- Главная активность лаунчера -->
+
         <activity
             android:name=".MainActivity"
             android:label="PixelView"
